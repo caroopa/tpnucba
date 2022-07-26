@@ -15,7 +15,6 @@ signIn.addEventListener("click", () => {
         }
       }
 
-      localStorage.removeItem("login");
       const login = {
         nombre: nombre,
         mail: mail1.value,

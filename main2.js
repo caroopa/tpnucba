@@ -41,5 +41,6 @@ cerrarSesion.addEventListener("click", () => {
       localStorage.setItem("sesiones", JSON.stringify(sesiones));
     }
   }
+  localStorage.removeItem("login");
   window.location.href = "login.html";
 });
